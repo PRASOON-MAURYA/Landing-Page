@@ -1,0 +1,174 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: #000000; */
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+/* Hide the default scrollbar for webkit browsers (Chrome, Safari) */
+body::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  /* Hide the default scrollbar for Firefox */
+  body {
+    scrollbar-width: none;
+  }
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 155, 155);
+    font-size: 3rem;
+    padding-right: 2rem;
+}
+.landing-page{
+    margin-right: 1.75rem;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 2rem;
+}
+
+ul li {
+    margin: 1rem 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 2rem 0;
+    background-color: rgb(44, 44, 44);
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+}
+
+.planets {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* border: 2px solid red; */
+    height: 90vh;
+    margin-bottom: 4rem;
+}
+
+.mercury {
+    background-image: url('mercury.png');
+}
+
+.venus {
+    background-image: url('venus.png');
+}
+
+.earth {
+    background-image: url('earth.png');
+}
+
+.mars {
+    background-image: url('mars.png');
+}
+
+.jupiter {
+    background-image: url('jupiter.png');
+}
+
+.saturn {
+    background-image: url('saturn.png');
+}
+
+.uranus {
+    background-image: url('uranus.png');
+}
+
+.neptune {
+    background-image: url('neptune.png');
+}
+
+.planet {
+    /* border: 2px solid blue; */
+    border-radius: 1rem;
+    margin: 2rem;
+    cursor: pointer;
+    width: auto;
+    min-height: 300px;
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section {
+    border: 5px solid green;
+    border-radius: 2rem;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(44, 44, 44);
+    margin-bottom: 4rem;
+}
+
+.single-planet {
+    border: 2px solid black;
+    border-radius: 1rem;
+    min-width: 240px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2rem 4rem;
+}
+
+.content {
+    padding: 0 4rem;
+    font-size: 1.25rem;
+}
+
+.name {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: rgb(5, 175, 135);
+}
+
+.content>a {
+    color: rgb(31, 31, 255);
+    font-size: 1.5rem;
+}
+.go-up{
+    padding: 1rem 3rem;
+    background-color: rgb(63, 192, 207);
+    border-radius: 1rem;
+    color: #000000;
+    font-size: 2rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    background-color: #252525;
+}
+.dark-green{
+    color: rgb(2, 126, 84);
+    font-weight: bold;
+    /* font-size: 2rem; */
+}
